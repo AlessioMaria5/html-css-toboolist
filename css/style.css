@@ -11,12 +11,13 @@ header {
     width: 100%;
     margin: 0px;
     margin-bottom: 50px;
-    padding-bottom: 10px;
+    padding-top: 10px;
     background-color: white;
     line-height: 10px;
     
    
 }
+
 
 header span {
 
@@ -75,6 +76,7 @@ li {
     margin:10px;
 }
 
+/* BEFORE AND AFTER */
 
 .no:before {
 
@@ -202,7 +204,7 @@ li {
 
 }
 
-
+/* BEFORE AND AFTER */
 
 /* BUTTONS */
 
