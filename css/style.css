@@ -10,8 +10,8 @@ header {
 
     width: 100%;
     margin: 0px;
+    margin-bottom: 50px;
     padding-bottom: 10px;
-    padding-top: 10px;
     background-color: white;
     line-height: 10px;
     
@@ -45,10 +45,21 @@ main {
     padding: 15px;
     width: 500px;
     margin: 5px;
-    border-radius: 5px 5px 0px 0px;
+    padding-left: 50px;
+    padding-right: 100px;
+   
     
 }
 
+#tops {
+
+    border-radius: 5px 5px 0px 0px;
+}
+
+#mains {
+
+    border-radius: 0px 0px 5px 5px;
+}
 
 
 
@@ -56,12 +67,58 @@ main {
 ul {
     
     margin: 15px;
+    list-style: none;
 }
 
 li {
 
     margin:10px;
 }
+
+
+.no:before {
+
+    content: "\2718";
+    color: rgb(255, 0, 0);
+    margin-right: 5px;
+    border-color: red;
+    border-radius: 50%;
+    border: solid 1px;
+    line-height: 18px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+   
+
+}
+
+.editorial:after {
+
+    content: "Editorial";
+    font-size: 10px;
+    background-color: brown;
+    border-radius: 3px;
+}
+
+.yes:before {
+
+    content: "\2713";
+    color: rgb(55, 205, 55);
+    margin-right: 5px;
+    border-color: rgb(55, 205, 55);
+    border-radius: 50%;
+    border: solid 1px;
+    line-height: 18px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
 
 
 /* BUTTONS */
@@ -103,7 +160,8 @@ h2:before {
 h2 {
 
    font-size: 20px;
-   color: rgb(57, 54, 54);
-}
+   color: rgb(101, 94, 94);
+   font-weight: 900;
+   font-family:Verdana, Geneva, Tahoma, sans-serif
 
 /* TEXT */
