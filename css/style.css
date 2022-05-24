@@ -76,6 +76,20 @@ li {
     margin:10px;
 }
 
+li:after {
+
+    font-size: 10px;
+    color: white;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 10px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 5px;
+
+}
+
 /* BEFORE AND AFTER */
 
 .no:before {
@@ -99,92 +113,43 @@ li {
 .editorial:after {
 
     content: "Editorial";
-    font-size: 10px;
     background-color: rgb(145, 191, 234);
-    color: white;
-    border-radius: 3px;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 10px;
-    text-align: center;
-    padding: 5px;
-    margin-left: 5px;
+   
 }
 .q1:after {
 
     content: "Q1 Goals";
-    font-size: 10px;
     background-color: rgb(191, 57, 171);
-    color: white;
-    border-radius: 3px;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 10px;
-    text-align: center;
-    padding: 5px;
-    margin-left: 5px;
+   
 }
 
 .recruiting:after {
 
     content: "Recruiting";
-    font-size: 10px;
     background-color: rgb(114, 175, 116);
-    color: white;
-    border-radius: 3px;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 10px;
-    text-align: center;
-    padding: 5px;
-    margin-left: 5px;
-
+    
 }
 
 .sales:after {
 
     content: "Sales";
-    font-size: 10px;
     background-color: rgb(40, 72, 13);
-    color: white;
-    border-radius: 3px;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 10px;
-    text-align: center;
-    padding: 5px;
-    margin-left: 5px;
+
 
 }
 
 .mobile:after {
 
     content: "Mobile";
-    font-size: 10px;
     background-color: rgb(223, 179, 91);
-    color: white;
-    border-radius: 3px;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 10px;
-    text-align: center;
-    padding: 5px;
-    margin-left: 5px;
+
 }
 
 .website:after {
 
     content: "Website";
-    font-size: 10px;
     background-color: rgb(208, 215, 109);
-    color: white;
-    border-radius: 3px;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 10px;
-    text-align: center;
-    padding: 5px;
-    margin-left: 5px;
+    
 }
 
 .yes:before {
