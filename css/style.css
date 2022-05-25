@@ -1,29 +1,40 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
 
 body {
-    width: 100%;
-    height: 100%;
+  
     margin: auto;
     background-color: rgb(37, 37, 52);
 }
 
-header {
-
-    width: 100%;
+header { 
+    
     margin: 0px;
     margin-bottom: 50px;
-    padding-top: 10px;
+    padding: 10px;
     background-color: white;
-    line-height: 10px;
-    
+
    
 }
 
+header img {
+
+    height: 50px;
+    vertical-align: middle;
+    
+
+}
 
 header span {
 
     margin-left: 5px;
-    line-height: 20px;
-    display: inline-block;
     vertical-align: middle;
     width: 100px;
     height: 50px;
@@ -44,7 +55,6 @@ main {
 
     background-color: white;
     padding: 15px;
-    width: 500px;
     margin: 5px;
     padding-left: 50px;
     padding-right: 100px;
@@ -173,14 +183,22 @@ li:after {
 
 /* BUTTONS */
 
+.btn {
+
+    border-radius: 3px;
+    font-size: 10px;
+    width: 100px;
+  
+
+}
+
 #task {
 
     background-color: rgb(127, 180, 255);
     border:none;
-    border-radius: 3px;
     color: white;
-    padding: 5px 5px 5px 5px;
-    font-size: 10px;
+    padding: 5px;
+    
 }
 
 #section {
@@ -188,10 +206,8 @@ li:after {
     background-color: rgb(255, 255, 255);
     border: solid 1px;
     border-color: grey;
-    border-radius: 3px;
     color: grey;
-    padding: 5px 5px 5px 5px;
-    font-size: 10px;
+    padding: 4px;
 }
 
 /* BUTTONS */
@@ -201,8 +217,11 @@ li:after {
 h2:before {
 
     content: "\25BC";
-    font-size: 12px;
+    font-size: 8px;
     margin-right: 10px;
+    display:inline-block;
+    transform: scale(2,1);
+
     
     
 }
@@ -213,5 +232,6 @@ h2 {
    color: rgb(101, 94, 94);
    font-weight: 900;
    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
 
 /* TEXT */
